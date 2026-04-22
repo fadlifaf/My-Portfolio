@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>My Portfolio</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo"><b>Padli</b></div>
+
+      <!-- hamburger -->
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+
+      <!-- menu -->
+      <div class="nav-links" id="nav-links">
+        <a href="#intro">Intro</a>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="intro" class="hero fade">
+      <span class="availability">AVAILABLE FOR OPPORTUNITIES</span>
+
+      <h1>
+        Hello, I am Padli<br />
+        <span>IT Enthusiast.</span>
+      </h1>
+
+      <p>
+        Welcome to my portfolio. Feel free to explore my work and reach out if
+        you'd like to discuss anything.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View Projects →</a>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+
+      <div class="socials">
+        <a
+          href="https://github.com/fadlifaf/"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/muhammad-padlii/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/fadlifaf"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="fade">
+      <h2 class="section-title">
+        About Me
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="about-grid">
+        <div>
+          <p class="about-text">
+            I have experience in Network Operations Center (NOC) operations and
+            data analysis. Experienced in network monitoring, POS
+            troubleshooting, and data management. Skilled in reporting and
+            visualization using Power BI, Tableau, and Microsoft Excel.
+            Interested in data analytics, network security, and web security
+            while continuously improving technical and collaboration skills.
+          </p>
+
+          <a href="assets/resume/CV Muhammad Padli.pdf" class="btn primary">
+            Download Resume
+          </a>
+
+          <div class="tech-stack">
+            <h3>Tech Stack</h3>
+
+            <div class="tech-list">
+              <span>Power BI</span>
+              <span>SQL</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Microsoft SQL Server</span>
+              <span>Laravel</span>
+              <span>CodeIgniter</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <img src="assets/foto/PAS FOTO.png" alt="Padli" />
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="fade">
+      <h2>Work Experience</h2>
+      <p class="section-desc">
+        My professional journey in the technology industry.
+      </p>
+
+      <div class="timeline-box">
+        <div class="timeline-dot"></div>
+
+        <div class="work-header">
+          <h3>Network Operation Center</h3>
+          <span>Feb 2025 — Present</span>
+        </div>
+
+        <p class="company">PT. Surganya Motor Head Office — Depok, Indonesia</p>
+
+        <ul class="work-list">
+          <li>
+            Monitor network connectivity between Head Office servers and
+            branches to maintain uptime stability above 95%.
+          </li>
+          <li>
+            Handle incidents through ticketing systems and escalate issues to IT
+            Infrastructure teams and ISP providers.
+          </li>
+          <li>
+            Perform remote troubleshooting for store systems and POS
+            applications across multiple branches.
+          </li>
+          <li>
+            Create network outage and service performance reports for
+            operational evaluation.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =================== PROJECT SECTION =================== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>Featured Projects</h2>
+            <p>Combination of visual design and code technicality.</p>
+          </div>
+        </div>
+        <div class="slider-wrapper">
+          <button id="prev" class="btn">❮</button>
+          <button id="next" class="btn">❯</button>
+          <div id="slider" class="slider">
+            <!-- PROJECT 1 -->
+            <div class="card">
+              <img src="assets/project/project1.jpg" />
+              <h3>Interactive Dashboard</h3>
+              <p>
+                Global Air Quality 2022 dashboard visualizing worldwide air
+                quality data.
+              </p>
+              <div class="tags">
+                <span class="tag">SQL</span> <span class="tag">Tableau</span>
+                <span class="tag">Dataset</span> <span class="tag">Kaggle</span>
+              </div>
+            </div>
+            <!-- PROJECT 2 -->
+            <div class="card">
+              <img src="assets/project/project2.png" />
+              <h3>UI/UX Design</h3>
+              <p>
+                Restaurant ordering system designed using Design Thinking
+                methodology.
+              </p>
+              <div class="tags">
+                <span class="tag">Figma</span>
+                <span class="tag">Design Thinking</span>
+              </div>
+            </div>
+            <!-- PROJECT 3 -->
+            <div class="card">
+              <img src="assets/project/project3.png" />
+              <h3>Web-Based POS Application</h3>
+              <p>POS system developed using PHP CodeIgniter for Local Juice.</p>
+              <div class="tags">
+                <span class="tag">PHP</span> <span class="tag">SQL</span>
+                <span class="tag">HTML</span> <span class="tag">CSS</span>
+              </div>
+            </div>
+            <!-- PROJECT 4 -->
+            <div class="card">
+              <img src="assets/project/project4.png" />
+              <h3>Power BI Dashboard</h3>
+              <p>
+                Game genre analytics dashboard showing popular genres like
+                action and sports.
+              </p>
+              <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">Dataset</span>
+                <span class="tag">Analysis</span>
+              </div>
+            </div>
+            <!-- PROJECT 5 -->
+            <div class="card">
+              <img src="assets/project/project5.png" />
+              <h3>Snack Ordering UI/UX</h3>
+              <p>
+                Snack ordering interface focusing on accessibility and fast
+                loading design.
+              </p>
+              <div class="tags">
+                <span class="tag">Figma</span>
+                <span class="tag">UX Research</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="fade">
+      <h2 class="section-title">
+        Education
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="education-card-wrapper">
+        <!-- CARD 1 -->
+        <div class="education-card">
+          <div class="edu-header">
+            <h3>Information System (S.Kom)</h3>
+            <span class="edu-year">2020 — 2024</span>
+          </div>
+
+          <p class="edu-school">Universitas Gunadarma</p>
+
+          <div class="edu-badge">GPA 3.69</div>
+
+          <ul class="edu-desc">
+            <li>
+              Studied Data Science Fundamentals, Data Mining, and Database
+              Systems.
+            </li>
+            <li>
+              Thesis: Development of Web-Based Point of Sales Application using
+              CodeIgniter Framework.
+            </li>
+          </ul>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="education-card">
+          <div class="edu-header">
+            <h3>Certified Independent Study — Data Analyst Academy</h3>
+            <span class="edu-year">Jan 2024 — Jun 2024</span>
+          </div>
+
+          <p class="edu-school">Data Analyst Bootcamp</p>
+
+          <div class="edu-badge">Certification</div>
+
+          <ul class="edu-desc">
+            <li>Data Cleaning & Transformation</li>
+            <li>Dashboard Development using Power BI & Tableau</li>
+            <li>SQL Data Analysis & Visualization</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CERTIFICATION SECTION =================== -->
+    <section id="certification">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>Training & Certification</h2>
+            <p>
+              Here are the certificates I received during my training and
+              professional development.
+            </p>
+          </div>
+        </div>
+
+        <div class="slider-wrapper">
+          <button id="cert-prev" class="btn">❮</button>
+          <button id="cert-next" class="btn">❯</button>
+
+          <div id="cert-slider" class="slider">
+            <!-- SERTIF 1 -->
+            <div class="card">
+              <img src="assets/sertifikasi/sertifcisco.jpg" />
+              <h3>Cisco Networking</h3>
+              <p>
+                Cisco networking training covers routing, switching, and network
+                troubleshooting.
+              </p>
+              <div class="tags">
+                <span class="tag">Networking</span>
+                <span class="tag">Cisco</span>
+              </div>
+            </div>
+
+            <!-- SERTIF 2 -->
+            <div class="card">
+              <img src="assets/sertifikasi/sertifmsib.jpg" />
+              <h3>MSIB Data Analyst</h3>
+              <p>Data analysis training using SQL, Python, and Tableau.</p>
+              <div class="tags">
+                <span class="tag">SQL</span>
+                <span class="tag">Tableau</span>
+              </div>
+            </div>
+
+            <!-- SERTIF 3 -->
+            <div class="card">
+              <img src="assets/sertifikasi/sertifbnsp.jpg" />
+              <h3>BNSP Professional</h3>
+              <p>
+                Nationally recognized professional competency certification in
+                the field of IT.
+              </p>
+              <div class="tags">
+                <span class="tag">Data Cleaning</span>
+                <span class="tag">Professional</span>
+              </div>
+            </div>
+
+            <!-- SERTIF 4 -->
+            <div class="card">
+              <img src="assets/sertifikasi/sertiffikti.jpg" />
+              <h3>FIKTI Certification</h3>
+              <p>
+                Training and development in the field of information technology.
+              </p>
+              <div class="tags">
+                <span class="tag">IT</span>
+                <span class="tag">Training</span>
+                <span class="tag">Dashboard</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">
+        CONTACT ME
+        <div class="title-line"></div>
+      </h2>
+
+      <div class="contact-form reveal">
+        <div class="contact-card">
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/xwvareay"
+            method="POST"
+          >
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="name" placeholder="..." required />
+            </div>
+
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="..." required />
+            </div>
+
+            <div class="form-group">
+              <label>Massage</label>
+              <textarea name="message" placeholder="..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Massage →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2026 Padli Portfolio</footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
